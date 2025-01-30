@@ -10,19 +10,30 @@ enable_trigger: "On"
 image_format_color_coding: BayerRG8
 
 # EXPOSURE
-exposure_mode: Timed
-exposure_auto: 'Off' 
-#auto_exposure_time_upper_limit: 40000.0 # microseconds
-exposure_time: 10000.0 # microseconds
+exposure_mode: TriggerWidth
+#exposure_auto: 'Continuous' 
+#auto_exposure_time_upper_limit: 30000.0 # microseconds
+#exposure_time: 35000.0 # microseconds
+
+auto_exposure_roi_width: 2048
+image_format_roi_height: 1000
+
 
 # GAIN
-gain_selector: All
+# gain_selector: All
 auto_gain: 'Off' 
-gain: 10.0
+gain: 15.0
 
 # WHITE BALANCE
-auto_white_balance: "Continuous"
+#auto_white_balance: "Continuous"
 # white_balance_blue_ratio: 0
 # white_balance_red_ratio: 1023
 
+# image_format_roi_width: 2048
+# image_format_roi_height: 1000
 
+# image_format_x_offset: 0
+# image_format_y_offset: 0
+
+# image_format_x_reverse: False
+# image_format_y_reverse: False
