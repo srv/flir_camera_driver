@@ -15,14 +15,19 @@ exposure_mode: TriggerWidth
 #auto_exposure_time_upper_limit: 30000.0 # microseconds
 #exposure_time: 35000.0 # microseconds
 
-auto_exposure_roi_width: 2048
-image_format_roi_height: 1000
+# ROI
+# image_format_roi_width: 2048
+# image_format_roi_height: 1140
+# image_format_y_offset: 760
+
+# auto_exposure_roi_width: 2048
+# image_format_roi_height: 1000
 
 
 # GAIN
 # gain_selector: All
 auto_gain: 'Off' 
-gain: 15.0
+gain: 20.0 # 20
 
 # WHITE BALANCE
 #auto_white_balance: "Continuous"
