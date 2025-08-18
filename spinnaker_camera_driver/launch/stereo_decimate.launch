@@ -26,7 +26,7 @@ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSI
 <launch>
   <!-- Common parameters -->
   <arg name="camera_name"                default="stereo_ch3" />
-  <arg name="calibration"                default="calibration_lanty2_pool.yaml" />
+  <arg name="calibration"                default="calibration_pool_11_03_25.yaml" />
   <arg name="enable_pc_voxel"            default="true"/>
   <arg name="enable_decimate_x1"         default="false"/>
   <arg name="enable_decimate_x2"         default="false"/>
@@ -36,7 +36,7 @@ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSI
   <arg name="left_camera_serial"         default="23045884" /> <!-- MASTER (also 16401228, 22416604, 23045884)-->
   <arg name="right_camera_serial"        default="23045887" /> <!-- SLAVE (also 16401229, 22416601, 23045887)-->
 
-  <arg name="params_file"                default="params_dynamic.yaml" />
+  <arg name="params_file"                default="params.yaml" />
 
 
   <!-- <arg name="run_stereo_image_proc"      default="true" /> -->
