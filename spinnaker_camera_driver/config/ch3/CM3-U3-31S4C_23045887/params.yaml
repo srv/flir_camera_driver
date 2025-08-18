@@ -10,10 +10,10 @@ enable_trigger: "On"
 image_format_color_coding: BayerRG8
 
 # EXPOSURE
-exposure_mode: TriggerWidth
-# exposure_auto: 'Off' #'Continuous'
+exposure_mode: Timed
+exposure_auto: 'Off' #'Continuous'
 # #auto_exposure_time_upper_limit: 20000.0 # microseconds
-# exposure_time: 30000.0 #4500.0 # microseconds
+exposure_time: 100000.0 #4500.0 # microseconds
 
 # GAIN
 gain_selector: All
@@ -21,4 +21,4 @@ auto_gain: 'Off' #'Continuous'
 gain: 15.0
 
 # White Balance
-# auto_white_balance: Continuous
+auto_white_balance: Continuous
